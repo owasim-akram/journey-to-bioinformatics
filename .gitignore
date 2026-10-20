@@ -1,3 +1,6 @@
+# Ignore fastq data 
+fastq/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -218,4 +221,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-.Rproj.user
+# pixi environments
+.pixi/*
+!.pixi/config.toml

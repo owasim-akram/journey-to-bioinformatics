@@ -42,7 +42,7 @@ ggplot(penguins_data, aes(x = sex, y = body_mass)) +
   geom_boxplot()
 
 #bar chart
-penguins_data |> 
+# penguins_data |>
   filter(sex != "NA") |> 
   ggplot(aes(sex)) +
     geom_bar()

@@ -1,0 +1,10 @@
+[workspace]
+authors = ["Owasim <hopethe282@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "journey-to-bioinformatics"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
